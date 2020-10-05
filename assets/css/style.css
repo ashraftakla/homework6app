@@ -1,0 +1,10 @@
+.search-bar {
+    background-color: grey;
+  }
+  .search-results {
+    background-color: lightgrey;
+  }
+  .forecast {
+    background-color: lightblue;
+    margin: 0.5rem;
+  }

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather APP</title>
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css"
+        integrity="sha384-OLYO0LymqQ+uHXELyx93kblK5YIS3B2ZfLGBmsJaUyor7CpMTBsahDHByqSuWW+q" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Link style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="container-fluid">
+    <header class="row">
+        <nav class="navbar bg-light col-12 mb-4">
+            <p class="header-text mx-auto">Weather Dashboard</p>
+        </nav>
+    </header>
+    <div class="row main-content">
+        <div class="col-4 search-bar">
+            <div class="row">
+                <input class="col-10" id="searchedcity" type="text">
+                <button class="btn btn-primary col-2" id="search-btn"><i class="fas fa-search-location"></i></button>
+            </div>
+            <div class="row search-history">
+                search-history
+            </div>
+        </div>
+        <div class="col-8 search-results">
+            <div class="row card current-city-info">
+                <h5 class="city-name">
+                </h5>
+            </div>
+            <h5>5 day forecast</h5>
+            <div class="row five-day-forecast">
+                <div class="col forecast">
+                    Days
+                </div>
+                <div class="col forecast">
+                    Days
+                </div>
+                <div class="col forecast">
+                    Days
+                </div>
+                <div class="col forecast">
+                    Days
+                </div>
+                <div class="col forecast">
+                    Days
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <!-- Bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <!-- Link custom script -->
+    <script type="text/javascript" src="assets/script/script.js"></script>
+</body>
