@@ -1,10 +1,19 @@
 .search-bar {
-    background-color: grey;
-  }
-  .search-results {
-    background-color: lightgrey;
-  }
-  .forecast {
-    background-color: lightblue;
-    margin: 0.5rem;
-  }
+  background-color: grey;
+}
+.weather-dashboard {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.search-results {
+  background-color: lightgrey;
+}
+.forecast {
+  background-color: lightblue;
+  margin: 0.5rem;
+  border-radius: 1rem;
+}
+.city-name {
+  font-size: 2rem;
+  font-weight: 500;
+}
